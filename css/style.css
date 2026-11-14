@@ -99,6 +99,15 @@ section h2 {
   display: inline-block;
 }
 
+#about p {
+  font-size: 1.05rem;
+}
+#about p + p {
+  margin-top: 50px;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
 /* 日時・場所 */
 .info-list { display: flex; flex-direction: column; gap: 12px; margin-bottom: 20px; }
 .info-item {
